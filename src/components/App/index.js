@@ -31,12 +31,12 @@ class App extends Component {
           name: "Death Cab 4 Tevis",
           faction: "Anti Crysler Method",
           teamAbv: "acm",
-          gamesPlayed: 1,
-          cans: 6,
+          gamesPlayed: 2,
+          cans: 16,
           garage:[
-            'car one',
-            'car two',
-            'car three'
+            'Jeep Apnea',
+            'Lamb Bikini',
+            'James Van Der Beek 5Head'
           ]
         },
         {
@@ -46,33 +46,29 @@ class App extends Component {
           gamesPlayed: 1,
           cans: 6,
           garage:[
-            'car one',
-            'car two',
-            'car three'
+            'Oil Cut You Good',
+            'Sticky Icky'
           ]
         },
         {
           name: "Psions of Speed",
           faction: "Disciples Of Omnipotent Madness",
           teamAbv: "doom",
-          gamesPlayed: 1,
-          cans: 5,
+          gamesPlayed: 2,
+          cans: 11,
           garage:[
-            'car one',
-            'car two',
-            'car three'
+            'Flip Wilson',
+            'Speed Buggy'
           ]
         },
         {
-          name: "Clan of Walt",
+          name: "Mad Science",
           faction: "Disciples Of Omnipotent Madness",
           teamAbv: "doom",
           gamesPlayed: 1,
-          cans: 8,
+          cans: 3,
           garage:[
-            'car one',
-            'car two',
-            'car three'
+            'Doom Bus'
           ]
         },
         {
@@ -82,9 +78,7 @@ class App extends Component {
           gamesPlayed: 1,
           cans: 10,
           garage:[
-            'car one',
-            'car two',
-            'car three'
+            'Destroy-ota Corolla'
           ]
         }
       ]

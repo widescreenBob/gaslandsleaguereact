@@ -36,9 +36,12 @@ h6 {
 }
 
 h1 {
-  font-size: 78px;
+  font-size: 52px;
   text-align: center;
 
+  @media only screen and (min-width: 800px) {
+    font-size: 78px;
+  }
 }
 
 h2 {

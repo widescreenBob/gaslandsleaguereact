@@ -3,27 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
-  state = { 
-    potato: "yes",
-    factions: [
-      {
-        name: "DOOM",
-        gamesPlayed: 1,
-        gamesWon: 1,
-        gamesLost: 0,
-        points: 20
-      },
-      {
-        name: "ACM",
-        gamesPlayed: 1,
-        gamesWon: 0,
-        gamesLost: 1,
-        points: 10
-      }
-    ]
-
-  };
-
+ 
   render() {
     return (
       <>

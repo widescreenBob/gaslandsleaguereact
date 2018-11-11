@@ -27,7 +27,7 @@ class TeamDisplay extends Component {
                 <>
                   { team.faction === this.props.active && 
                     <div {...index} className="team">
-                      <h3>{team.name}</h3>
+                      <h3 className={`team__heading team__${team.teamAbv}`}>{team.name}</h3>
                       <p className="team__faction">{team.faction}</p>
                       <p className="team__current-can">Current Cans:  {team.cans}</p>
                       <p className="team__garage">Cars in garage:</p>
