@@ -1,0 +1,43 @@
+.teamTheme {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  button {
+    color: white;
+    background: black;
+    padding: 0.5rem;
+    border-bottom: 2px solid var(--doom);
+    border-radius: 0 0 4px 4px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    box-shadow: -4px 3px 14px 0px rgba(0,0,0,0.25);
+
+    &.doom {
+      background-color: var(--doom);
+      border-bottom: 2px solid var(--border);
+      color: black;
+    }
+
+    &.acm {
+      background-color: var(--acm);
+      border-bottom: 2px solid var(--border);
+      color: black;
+    }
+
+    &:hover {
+      background-color: white;
+      color: black;
+
+      &.doom {
+        background-color: black;
+        color: var(--doom);
+      }
+  
+      &.acm {
+        background-color: black;
+        color: var(--acm);
+      }
+    }
+  }
+}

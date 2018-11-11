@@ -1,0 +1,20 @@
+.App {
+  position: relative;
+  background-color: var(--background);
+  height: 100%;
+  padding: 2rem;
+
+  &.acm {
+    --background: linear-gradient(0deg, #EFB511, rgba(255,252,117,1) 100%);
+    --border: #333333;
+    --contrast: var(--acm);
+    background: var(--background);
+  }
+
+  &.doom {
+    --background: linear-gradient(var(--doom), #518270);
+    --border: white;
+    --contrast: var(--doom);
+    background: var(--background);
+  }
+}

@@ -1,0 +1,91 @@
+.team-summary__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 4rem;
+
+  div {
+     width: 40%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   }
+}
+
+.record {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo {
+  width: 300px;
+}
+
+.points-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background: linear-gradient(#333333, black);
+  border: 4px solid black;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.points-text {
+  color: yellow;
+  font-size: 2rem;
+}
+
+.points {
+  color: yellow;
+  font-weight: bold;
+  font-size: 6rem;
+
+}
+
+.team-summary__scores {
+  width: 100%;
+  color: white;
+  background-color: black;
+  margin: 2rem -2rem;
+  padding: 2rem 2rem;
+}
+
+.team-summary__scores-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  @media only screen and (min-width: 800px) {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}
+
+.team-summary__scores-inner {
+  width: 100%;
+  text-align: center;
+  margin: 2rem 0;
+
+  @media only screen and (min-width: 800px) {
+    width: 50%;
+    margin: 0 0 2rem;
+  }
+
+}
+
+.team-summary__score-title {
+  color: white;
+  width: 100%;
+  margin: 0;
+}
+
+.team-summary__scores-name {
+  color: white;
+  margin: 0;
+}
+
+.team-summary__vs {
+  font-size: 100px;
+}
