@@ -13,17 +13,17 @@ class App extends Component {
       factions: [
         {
           name: "Disciples Of Omnipotent Madness",
-          gamesPlayed: 2,
+          gamesPlayed: 3,
           gamesWon: 1,
-          gamesLost: 1,
-          points: 30
+          gamesLost: 2,
+          points: 40
         },
         {
           name: "Anti Chrysler Method",
-          gamesPlayed: 2,
-          gamesWon: 1,
+          gamesPlayed: 3,
+          gamesWon: 2,
           gamesLost: 1,
-          points: 30
+          points: 50
         }
       ],
       teams:[
@@ -31,34 +31,47 @@ class App extends Component {
           name: "Death Cab 4 Tevis",
           faction: "Anti Crysler Method",
           teamAbv: "acm",
-          gamesPlayed: 2,
-          cans: 16,
+          gamesPlayed: 3,
+          cans: 15,
           garage:[
             'Jeep Apnea',
             'Lamb Bikini',
-            'James Van Der Beek 5Head'
+            'James Van Der Beek 5Head',
+            'Coach McGirks Advice'
           ]
         },
         {
           name: "Big Slick Nation",
           faction: "Anti Crysler Method",
           teamAbv: "acm",
-          gamesPlayed: 1,
-          cans: 6,
+          gamesPlayed: 2,
+          cans: 23,
           garage:[
             'Oil Cut You Good',
-            'Sticky Icky'
+            'Sticky Icky',
+            'Dodge This Ram'
           ]
         },
         {
-          name: "Psions of Speed",
+          name: "C.R.U.M.P.L.E",
+          faction: "Anti Crysler Method",
+          teamAbv: "acm",
+          gamesPlayed: 1,
+          cans: 5,
+          garage:[
+            'F.U.C.K.D'
+          ]
+        },
+        {
+          name: "Scions of Speed",
           faction: "Disciples Of Omnipotent Madness",
           teamAbv: "doom",
-          gamesPlayed: 2,
-          cans: 11,
+          gamesPlayed: 3,
+          cans: 15,
           garage:[
             'Flip Wilson',
-            'Speed Buggy'
+            'Speed Buggy',
+            'Stan the Man'
           ]
         },
         {
