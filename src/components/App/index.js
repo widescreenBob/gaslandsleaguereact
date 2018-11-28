@@ -37,7 +37,7 @@ class App extends Component {
             'Jeep Apnea',
             'Lamb Bikini',
             'James Van Der Beek 5Head',
-            'Coach McGirks Advice'
+            'Coach McGirks Advice -- RIP'
           ]
         },
         {
