@@ -13,17 +13,17 @@ class App extends Component {
       factions: [
         {
           name: "Disciples Of Omnipotent Madness",
-          gamesPlayed: 3,
+          gamesPlayed: 4,
           gamesWon: 1,
-          gamesLost: 2,
-          points: 40
+          gamesLost: 3,
+          points: 50
         },
         {
           name: "Anti Chrysler Method",
-          gamesPlayed: 3,
+          gamesPlayed: 4,
           gamesWon: 2,
-          gamesLost: 1,
-          points: 50
+          gamesLost: 3,
+          points: 60
         }
       ],
       teams:[
@@ -32,12 +32,13 @@ class App extends Component {
           faction: "Anti Crysler Method",
           teamAbv: "acm",
           gamesPlayed: 3,
-          cans: 15,
+          cans: 8,
           garage:[
             'Jeep Apnea',
             'Lamb Bikini',
             'James Van Der Beek 5Head',
-            'Coach McGirks Advice -- RIP'
+            'Coach McGirks Advice -- RIP',
+            'Nuke Em High Field Trip To Hell'
           ]
         },
         {
@@ -45,11 +46,12 @@ class App extends Component {
           faction: "Anti Crysler Method",
           teamAbv: "acm",
           gamesPlayed: 2,
-          cans: 23,
+          cans: 26,
           garage:[
             'Oil Cut You Good',
             'Sticky Icky',
-            'Dodge This Ram'
+            'Dodge This Ram 0',
+            'The Chevelle Wears Prada'
           ]
         },
         {
@@ -67,11 +69,12 @@ class App extends Component {
           faction: "Disciples Of Omnipotent Madness",
           teamAbv: "doom",
           gamesPlayed: 3,
-          cans: 15,
+          cans: 17,
           garage:[
             'Flip Wilson',
             'Speed Buggy',
-            'Stan the Man'
+            'Stan the Man 0',
+            'Slap Dash 0'
           ]
         },
         {
