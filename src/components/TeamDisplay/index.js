@@ -8,7 +8,7 @@ class TeamDisplay extends Component {
         <div className="team-display__button-container">
           <button className="team-display__button" onClick={(e) => this.props.updated('all')}>All</button>
           <button className="team-display__button" onClick={(e) => this.props.updated('Disciples Of Omnipotent Madness')}>DOOM</button>
-          <button className="team-display__button" onClick={(e) => this.props.updated('Anti Crysler Method')}>ACM</button>
+          <button className="team-display__button" onClick={(e) => this.props.updated('Anti Chrysler Method')}>ACM</button>
         </div>
         <div className="team-display__container">
           { this.props.active === 'all' ?  

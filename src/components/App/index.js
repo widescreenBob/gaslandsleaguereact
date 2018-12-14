@@ -13,26 +13,26 @@ class App extends Component {
       factions: [
         {
           name: "Disciples Of Omnipotent Madness",
-          gamesPlayed: 4,
-          gamesWon: 1,
+          gamesPlayed: 5,
+          gamesWon: 2,
           gamesLost: 3,
-          points: 50
+          points: 70
         },
         {
           name: "Anti Chrysler Method",
-          gamesPlayed: 4,
+          gamesPlayed: 5,
           gamesWon: 2,
           gamesLost: 3,
-          points: 60
+          points: 70
         }
       ],
       teams:[
         {
           name: "Death Cab 4 Tevis",
-          faction: "Anti Crysler Method",
+          faction: "Anti Chrysler Method",
           teamAbv: "acm",
-          gamesPlayed: 3,
-          cans: 8,
+          gamesPlayed: 5,
+          cans: 25,
           garage:[
             'Jeep Apnea',
             'Lamb Bikini',
@@ -43,10 +43,10 @@ class App extends Component {
         },
         {
           name: "Big Slick Nation",
-          faction: "Anti Crysler Method",
+          faction: "Anti Chrysler Method",
           teamAbv: "acm",
-          gamesPlayed: 2,
-          cans: 26,
+          gamesPlayed: 3,
+          cans: 28,
           garage:[
             'Oil Cut You Good',
             'Sticky Icky',
@@ -56,10 +56,10 @@ class App extends Component {
         },
         {
           name: "C.R.U.M.P.L.E",
-          faction: "Anti Crysler Method",
+          faction: "Anti Chrysler Method",
           teamAbv: "acm",
-          gamesPlayed: 1,
-          cans: 5,
+          gamesPlayed: 2,
+          cans: 23,
           garage:[
             'F.U.C.K.D'
           ]
@@ -68,8 +68,8 @@ class App extends Component {
           name: "Scions of Speed",
           faction: "Disciples Of Omnipotent Madness",
           teamAbv: "doom",
-          gamesPlayed: 3,
-          cans: 17,
+          gamesPlayed: 4,
+          cans: 41,
           garage:[
             'Flip Wilson',
             'Speed Buggy',
@@ -81,8 +81,8 @@ class App extends Component {
           name: "Mad Science",
           faction: "Disciples Of Omnipotent Madness",
           teamAbv: "doom",
-          gamesPlayed: 1,
-          cans: 3,
+          gamesPlayed: 2,
+          cans: 8,
           garage:[
             'Doom Bus'
           ]
@@ -92,7 +92,7 @@ class App extends Component {
           faction: "Disciples Of Omnipotent Madness",
           teamAbv: "doom",
           gamesPlayed: 1,
-          cans: 10,
+          cans: 23,
           garage:[
             'Destroy-ota Corolla'
           ]
