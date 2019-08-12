@@ -61,6 +61,12 @@
 .team__heading {
   margin: 2rem;
   padding: 1rem 0;
+
+  &.team__current-champ::after {
+    content: '\2605';
+    color: #e2c675;
+    margin-left: 1rem;
+  }
 }
 
 .team__current-can {
@@ -68,7 +74,6 @@
   font-weight: bold;
   font-size: 20px;
 }
-
 .team__garage-list,
 .team__garage {
   text-align: center;
