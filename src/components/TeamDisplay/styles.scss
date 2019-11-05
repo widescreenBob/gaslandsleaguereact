@@ -69,11 +69,17 @@
   }
 }
 
-.team__current-can {
+.team__current-can,
+.team__sponsor {
   text-align: center;
   font-weight: bold;
   font-size: 20px;
+
+  span {
+    font-style: italic;
+  }
 }
+
 .team__garage-list,
 .team__garage {
   text-align: center;

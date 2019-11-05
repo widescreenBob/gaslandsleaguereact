@@ -33,6 +33,7 @@ class App extends Component {
           name: "Death Cab 4 Tevis",
           faction: "Anti Chrysler Method",
           teamAbv: "acm",
+          sponsor:"The Warden",
           gamesPlayed: 0,
           cans: 0,
           garage:[
@@ -42,6 +43,7 @@ class App extends Component {
           name: "Big Slick Nation",
           faction: "Anti Chrysler Method",
           teamAbv: "acm",
+          sponsor:"",
           gamesPlayed: 0,
           cans: 0,
           garage:[
@@ -51,6 +53,7 @@ class App extends Component {
           name: "C.R.U.M.P.L.E",
           faction: "Anti Chrysler Method",
           teamAbv: "acm",
+          sponsor:"",
           gamesPlayed: 0,
           cans: 0,
           garage:[
@@ -61,6 +64,7 @@ class App extends Component {
           champion: true,
           faction: "Disciples Of Omnipotent Madness",
           teamAbv: "doom",
+          sponsor:"Rutherford",
           gamesPlayed: 0,
           cans: 0,
           garage:[
@@ -70,6 +74,7 @@ class App extends Component {
           name: "Mad Science",
           faction: "Disciples Of Omnipotent Madness",
           teamAbv: "doom",
+          sponsor:"",
           gamesPlayed: 0,
           cans: 0,
           garage:[
@@ -79,6 +84,7 @@ class App extends Component {
           name: "Pickle Rickshawshank Redemption",
           faction: "Disciples Of Omnipotent Madness",
           teamAbv: "doom",
+          sponsor:"",
           gamesPlayed: 0,
           cans: 0,
           garage:[
