@@ -15,18 +15,30 @@ class App extends Component {
           name: "Disciples Of Omnipotent Madness",
           currentChampion: true,
           gamesPlayed: 0,
-          gamesWon: 0,
-          gamesLost: 0,
           points: 0
         },
         {
           name: "Anti Chrysler Method",
           currentChampion: false,
           gamesPlayed: 0,
-          gamesWon: 0,
-          gamesLost: 0,
           points: 0
         }
+      ],
+      results:[
+        {
+          week:"1",
+          teamOneName:"D.O.O.M.",
+          teamTwoName:"A.C.M",
+          teamOneScore:"55",
+          teamTwoScore:"12"
+        },
+        {
+          week:"2",
+          teamOneName:"D.O.O.M.",
+          teamTwoName:"A.C.M",
+          teamOneScore:"32",
+          teamTwoScore:"13"
+        },
       ],
       teams:[
         {
@@ -60,7 +72,7 @@ class App extends Component {
           ]
         },
         {
-          name: "Scions of Speed",
+          name: "Let's Get Technical",
           champion: true,
           faction: "Disciples Of Omnipotent Madness",
           teamAbv: "doom",
@@ -68,6 +80,10 @@ class App extends Component {
           gamesPlayed: 0,
           cans: 0,
           garage:[
+            {
+              car: "Truck You",
+              status: 1
+            }
           ]
         },
         {
@@ -119,7 +135,7 @@ class App extends Component {
         <ThemeSelector update={this.changeTheme}/>
         <div className="current-champs">2018 Faction Champion: D.O.O.M. • 2018 Team Champion: Scions of Speed </div>
         <h1>2019 GAS LANDS LEAGUE</h1>
-        <FactionSummary factions={this.state.factions} />
+        <FactionSummary factions={this.state.factions} results={this.state.results}/>
         <h2>TEAMS:</h2>
         <TeamDisplay teams={this.state.teams} active={this.state.activeFaction} updated={this.changeActiveFaction}/>
       </div>

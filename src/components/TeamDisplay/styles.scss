@@ -66,10 +66,13 @@
     content: '\2605';
     color: #e2c675;
     margin-left: 1rem;
+
+    .acm & {
+      color:black;
+    }
   }
 }
 
-.team__current-can,
 .team__sponsor {
   text-align: center;
   font-weight: bold;
@@ -80,13 +83,32 @@
   }
 }
 
-.team__garage-list,
-.team__garage {
+.team__current-can {
+  font-size: 30px;
+  margin: 0.5rem 0;
+  font-weight: 900;
   text-align: center;
-  padding: 0;
 }
 
 .team__garage {
   font-size: 18px;
   font-weight: bold;
+}
+
+.team__garage-car-name {
+  font-weight: bold;
+
+  &.dead {
+    text-decoration: line-through;
+  }
+}
+
+.team__garage-list-car {
+  list-style-type: disc;
+}
+
+.team__garage-container {
+  text-align: left;
+  width: 50%;
+  margin: 0 auto;
 }

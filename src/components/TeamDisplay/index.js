@@ -14,7 +14,7 @@ class TeamDisplay extends Component {
           { this.props.active === 'all' ?  
             <>
               {this.props.teams.map((team, index) => (
-                <div {...index} className="team">
+                <div {...index} className="team" key={team.name}>
                   <h3 className={`team__heading team__${team.teamAbv} ${team.champion ? "team__current-champ " : ""}`}>{team.name}</h3>
                   <p className="team__faction">{team.faction}</p>
                   <p className="team__current-can">Current Cans:  {team.cans}</p>
@@ -36,16 +36,19 @@ class TeamDisplay extends Component {
                         <p className="team__sponsor">Current Sponsor: <span>{team.sponsor}</span></p>
                       }
                       <p className="team__current-can">Current Cans:  {team.cans}</p>
-                      <p className="team__garage">Cars in garage:</p>
-                      <ul className="team__garage-list">
-                        {team.garage.map((car, index) => (
-                          <>
-                            <p{...index}>
-                              {car}
-                            </p>
-                          </>
-                        ))}
-                      </ul>
+                      {team.garage.length > 0 && (
+                      <div className="team__garage-container">
+                        <p className="team__garage">Cars in garage:</p>
+                          <ul className="team__garage-list">
+                          {team.garage.map((car, index) => (
+                            <>
+                              <li className="team__garage-list-car"{...index}>
+                                <span className={"team__garage-car-name" + (car.status ? ' alive' : ' dead')}>{car.car}</span>
+                              </li>
+                            </>
+                          ))}
+                        </ul>
+                      </div>)}
                     </div>
                   }
                 </>
