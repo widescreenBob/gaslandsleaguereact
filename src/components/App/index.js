@@ -29,16 +29,9 @@ class App extends Component {
           week:"1",
           teamOneName:"D.O.O.M.",
           teamTwoName:"A.C.M",
-          teamOneScore:"55",
-          teamTwoScore:"12"
-        },
-        {
-          week:"2",
-          teamOneName:"D.O.O.M.",
-          teamTwoName:"A.C.M",
-          teamOneScore:"32",
-          teamTwoScore:"13"
-        },
+          teamOneScore:"0",
+          teamTwoScore:"0"
+        }
       ],
       teams:[
         {
@@ -49,16 +42,40 @@ class App extends Component {
           gamesPlayed: 0,
           cans: 0,
           garage:[
+            {
+              car: "Warden Norton",
+              status: 1
+            },
+            {
+              car: "Warden Hennessey",
+              status: 1
+            },
+            {
+              car: "Warden Hazen",
+              status: 1
+            },
+            {
+              car: "Col. Winter",
+              status: 1
+            }
           ]
         },
         {
-          name: "Big Slick Nation",
+          name: "Dank Zapper",
           faction: "Anti Chrysler Method",
           teamAbv: "acm",
-          sponsor:"",
+          sponsor:"Mishkin",
           gamesPlayed: 0,
           cans: 0,
           garage:[
+            {
+              car: "Resistance is Futile",
+              status: 1
+            },
+            {
+              car: "Tell Me Watt Hertz",
+              status: 1
+            }
           ]
         },
         {
@@ -100,10 +117,14 @@ class App extends Component {
           name: "Pickle Rickshawshank Redemption",
           faction: "Disciples Of Omnipotent Madness",
           teamAbv: "doom",
-          sponsor:"",
+          sponsor:"Maxxine",
           gamesPlayed: 0,
           cans: 0,
           garage:[
+            {
+              car: "Destroyota 2.0",
+              status: 1
+            }
           ]
         }
       ]

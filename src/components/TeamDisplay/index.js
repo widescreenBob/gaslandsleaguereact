@@ -16,7 +16,6 @@ class TeamDisplay extends Component {
               {this.props.teams.map((team, index) => (
                 <div {...index} className="team" key={team.name}>
                   <h3 className={`team__heading team__${team.teamAbv} ${team.champion ? "team__current-champ " : ""}`}>{team.name}</h3>
-                  <p className="team__faction">{team.faction}</p>
                   <p className="team__current-can">Current Cans:  {team.cans}</p>
                   {  team.sponsor.length > 0 &&
                         <p className="team__sponsor">Current Sponsor: <span>{team.sponsor}</span></p>
@@ -30,8 +29,7 @@ class TeamDisplay extends Component {
                 <>
                   { team.faction === this.props.active && 
                     <div {...index} className="team">
-                      <h3 className={`team__heading team__${team.teamAbv}`}>{team.name}</h3>
-                      <p className="team__faction">{team.faction}</p>
+                      <h3 className={`team__heading team__${team.teamAbv} ${team.champion ? "team__current-champ " : ""}`}>{team.name}</h3>
                       {team.sponsor.length > 0 &&
                         <p className="team__sponsor">Current Sponsor: <span>{team.sponsor}</span></p>
                       }

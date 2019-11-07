@@ -42,9 +42,9 @@ class FactionSummary extends Component {
               <>
                 <ul className="team-summary__results-inner" key={result.week + index}>
                   <li className="team-summary__results-item">
-                  <span className="results-week">WK:{result.week}</span>
+                  <span className="results-week">WEEK: {result.week}</span>
                     <span className="result-one">{result.teamOneName} {result.teamOneScore}</span>
-                    •
+                    <span className="result-separator">•</span>
                     <span className="result-two">{result.teamTwoName} {result.teamTwoScore}</span>
                   </li>
                 </ul>

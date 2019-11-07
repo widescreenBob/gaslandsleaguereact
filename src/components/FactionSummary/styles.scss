@@ -54,7 +54,11 @@
   color: white;
   background-color: black;
   margin: 2rem -2rem 0;
-  padding: 2rem 2rem;
+  padding: 2rem 2rem 0;
+
+  @media only screen and (min-width: 800px) {
+    padding: 2rem 2rem;
+  }
 }
 
 .team-summary__scores-container {
@@ -71,7 +75,7 @@
 .team-summary__scores-inner {
   width: 100%;
   text-align: center;
-  margin: 2rem 0;
+  margin: 2rem 0 0;
 
   @media only screen and (min-width: 800px) {
     width: 50%;
@@ -88,7 +92,7 @@
 
 .team-summary__scores-name {
   color: white;
-  margin: 0;
+  margin: 0 0 1rem;
 }
 
 .team-summary__vs {
@@ -114,6 +118,7 @@
 
 .team-summary__results-title {
   color: white;
+  margin-top: 0;
 }
 
 .results-week {
@@ -122,11 +127,31 @@
 
 .team-summary__results-item {
   list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  @media only screen and (min-width: 800px) {
+    flex-direction: row;
+  }
 }
 
 .result-one {
-  margin-right: 2rem;
+  @media only screen and (min-width: 800px) {
+    margin-right: 2rem;
+  }
 }
+
 .result-two {
-  margin-left: 2rem;
+  @media only screen and (min-width: 800px) {
+    margin-left: 2rem;
+  }
+}
+
+.result-separator {
+  display: none;
+
+  @media only screen and (min-width: 800px) {
+    display: block;
+  }
 }
