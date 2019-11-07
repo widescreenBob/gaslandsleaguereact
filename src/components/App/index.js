@@ -61,7 +61,7 @@ class App extends Component {
           ]
         },
         {
-          name: "Dank Zapper",
+          name: "Dank Zappa",
           faction: "Anti Chrysler Method",
           teamAbv: "acm",
           sponsor:"Mishkin",
@@ -104,13 +104,25 @@ class App extends Component {
           ]
         },
         {
-          name: "Mad Science",
+          name: "The Devil Makes Three",
           faction: "Disciples Of Omnipotent Madness",
           teamAbv: "doom",
-          sponsor:"",
+          sponsor:"Beverly",
           gamesPlayed: 0,
           cans: 0,
           garage:[
+            {
+              car: "Inferno 666",
+              status: 1
+            },
+            {
+              car: "Pain",
+              status: 1
+            },
+            {
+              car: "Misery",
+              status: 1
+            }
           ]
         },
         {
