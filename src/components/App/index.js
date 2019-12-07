@@ -14,14 +14,14 @@ class App extends Component {
         {
           name: "Disciples Of Omnipotent Madness",
           currentChampion: true,
-          gamesPlayed: 1,
-          points: 7
+          gamesPlayed: 2,
+          points: 96
         },
         {
           name: "Anti Chrysler Method",
           currentChampion: false,
-          gamesPlayed: 1,
-          points: 28
+          gamesPlayed: 2,
+          points: 164
         }
       ],
       results:[
@@ -31,6 +31,13 @@ class App extends Component {
           teamTwoName:"A.C.M",
           teamOneScore:"7",
           teamTwoScore:"28"
+        },
+        {
+          week:"2",
+          teamOneName:"D.O.O.M.",
+          teamTwoName:"A.C.M",
+          teamOneScore:"89",
+          teamTwoScore:"136"
         }
       ],
       teams:[
@@ -39,8 +46,8 @@ class App extends Component {
           faction: "Anti Chrysler Method",
           teamAbv: "acm",
           sponsor:"The Warden",
-          gamesPlayed: 1,
-          cans: 12,
+          gamesPlayed: 2,
+          cans: 93,
           garage:[
             {
               car: "Warden Norton",
@@ -57,6 +64,26 @@ class App extends Component {
             {
               car: "Col. Winter",
               status: 0
+            },
+            {
+              car: "Sundae Bloody Sundae",
+              status: 1
+            },
+            {
+              car: "Manana Split",
+              status: 0
+            },
+            {
+              car: "Death With A Cherry On Top",
+              status: 0
+            },
+            {
+              car: "Two Scoops of Pain",
+              status: 0
+            },
+            {
+              car: "You Want Sprinkles On Your Corpse",
+              status: 0
             }
           ]
         },
@@ -65,8 +92,8 @@ class App extends Component {
           faction: "Anti Chrysler Method",
           teamAbv: "acm",
           sponsor:"Mishkin",
-          gamesPlayed: 1,
-          cans: 10,
+          gamesPlayed: 2,
+          cans: 65,
           garage:[
             {
               car: "Resistance is Futile",
@@ -74,6 +101,10 @@ class App extends Component {
             },
             {
               car: "Tell Me Watt Hertz",
+              status: 1
+            },
+            {
+              car: "Volts-Wagon Jetta",
               status: 1
             }
           ]
@@ -108,12 +139,16 @@ class App extends Component {
           faction: "Disciples Of Omnipotent Madness",
           teamAbv: "doom",
           sponsor:"Beverly",
-          gamesPlayed: 1,
-          cans: 7,
+          gamesPlayed: 2,
+          cans: 65,
           garage:[
             {
               car: "Inferno 666",
               status: 0
+            },
+            {
+              car: "Bone Shaker",
+              status: 1
             },
             {
               car: "Pain",
@@ -130,12 +165,16 @@ class App extends Component {
           faction: "Disciples Of Omnipotent Madness",
           teamAbv: "doom",
           sponsor:"Maxxine",
-          gamesPlayed: 1,
-          cans: 0,
+          gamesPlayed: 2,
+          cans: 31,
           garage:[
             {
               car: "Destroyota 2.0",
               status: 0
+            },
+            {
+              car: "Miley Cyrus",
+              status: 1
             }
           ]
         }
